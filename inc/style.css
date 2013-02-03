@@ -1,0 +1,132 @@
+/* 
+    Document   : style
+    Created on : Jan 9, 2013, 9:40:20 AM
+    Author     : SwedFTP
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    
+    display: block;
+    
+}
+
+body
+{
+    
+    font-size: 80%;
+    font-family: Lucida Console;
+    margin:0;
+    padding:0;
+    
+}
+.container{
+    
+    min-height: 100%;
+    
+}
+.playerBox{
+    position:fixed;
+    width:100%;
+    top:0px;
+    background-color:black;
+}
+.buttons{
+    display:inline;
+    position: relative;
+    left:30%;
+    margin:0 auto 0 auto;
+}
+.controls{
+
+}
+.header{
+    display:block;
+    border-radius: 1em 1em 6em / 0.3em 2em;
+    width:90%;
+    height:10%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0, 0.5);
+    margin:1em auto 1em auto;
+    min-height: 8em;
+    padding:2em;
+    
+}
+.nav{
+    
+    padding:1em;
+    border-radius: 4em 0.4em 2em / 3em 0.5em;
+    width:95%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255,255,255, 0.2);
+    min-height: 2em;
+    display:block;
+    margin:1em auto 1em auto;
+
+}
+.sidebarLeft{
+    position: fixed;
+    left: 0; /* or right */
+    top: 25%;
+    bottom: 0;
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255,255,255, 0.2);
+    width:10%;
+    height:50%;
+    margin:1em;
+    padding:1em;
+    overflow:hidden;
+}
+.content{
+    display:block;
+    padding:2em;
+    border-radius: 5em 3em 0.6em / 0.8em 1em;
+    width:50%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0, 0.8);
+    margin:1em auto 1em auto;
+
+    min-height: 50%;
+    
+}
+.sidebarRight{
+    position: fixed;
+    right: 0; /* or right */
+    top: 25%;
+    bottom: 0;
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255,255,255, 0.2);
+    width:10%;
+    height:50%;
+    margin:1em;
+    padding:1em;
+    overflow:hidden;
+}
+.footer{
+    display:block;
+    border-radius: 2.5em 5em 1em / 0.5em 3em;
+    width:90%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0, 0.5);
+    margin:1em auto 1em auto;
+    min-height: 8em;
+    padding:2em;
+    height:10%;
+    
+    
+}
+
+
+.buttons{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0, 1);
+    border-radius: 2.5em 5em 1em / 0.5em 3em;
+    
+    width:15%;
+    margin:1em auto 1em auto;
+    min-height: 10%;
+    
+}
