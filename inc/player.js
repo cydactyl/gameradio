@@ -10,7 +10,7 @@ $(document).ready(function(){
     'preload' : 'auto',
     'volume' : '1.0'}).appendTo('body');
 
-    var stationDir = ;
+    var stationDir;
     var songName;
     var audioObj = $('audio').get(0);
     var numberOfSongs = 15;
